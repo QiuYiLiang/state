@@ -4,7 +4,7 @@
     "baseUrl": ".",
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
     "paths": {
-      "@state/*": ["packages/*/src"],
+      "@qiuyl/*": ["packages/*/src"],
       "shared": ["packages/shared/src"]
     },
     "sourceMap": true,
