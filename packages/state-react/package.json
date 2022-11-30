@@ -1,6 +1,6 @@
 {
   "name": "@qiuyl/state-react",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "keywords": [],
   "author": "",
@@ -19,12 +19,12 @@
   ],
   "main": "./dist/state-react.cjs.js",
   "module": "./dist/state-react.es.js",
-  "types": "./dist/index.d.ts",
+  "types": "./dist/state-react/src/index.d.ts",
   "exports": {
     ".": {
       "import": "./dist/state-react.es.js",
       "require": "./dist/state-react.cjs.js",
-      "types": "./dist/index.d.ts"
+      "types": "./dist/state-react/src/index.d.ts"
     }
   },
   "dependencies": {
