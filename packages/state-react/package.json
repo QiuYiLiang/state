@@ -29,8 +29,10 @@
   },
   "dependencies": {
     "@qiuyl/state": "workspace:*",
-    "@types/react": "^18.0.14",
     "react": "^18.2.0",
     "shared": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.25"
   }
 }
