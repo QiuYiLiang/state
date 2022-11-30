@@ -1,6 +1,6 @@
 {
   "name": "@qiuyl/state-react",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
   "keywords": [],
   "author": "",
@@ -29,8 +29,7 @@
   },
   "dependencies": {
     "@qiuyl/state": "workspace:*",
-    "react": "^18.2.0",
-    "shared": "workspace:*"
+    "react": "^18.2.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.25"

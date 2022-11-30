@@ -1,6 +1,6 @@
 {
   "name": "@qiuyl/state-vue",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
   "keywords": [],
   "author": "",
@@ -29,7 +29,6 @@
   },
   "dependencies": {
     "@qiuyl/state": "workspace:*",
-    "vue": "^3.2.40",
-    "shared": "workspace:*"
+    "vue": "^3.2.40"
   }
 }

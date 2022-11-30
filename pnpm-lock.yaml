@@ -63,36 +63,26 @@ importers:
       typescript: 4.9.3
       vite: 3.2.4
 
-  packages/shared:
-    specifiers: {}
-
   packages/state:
-    specifiers:
-      shared: workspace:*
-    dependencies:
-      shared: link:../shared
+    specifiers: {}
 
   packages/state-react:
     specifiers:
       '@qiuyl/state': workspace:*
       '@types/react': ^18.0.25
       react: ^18.2.0
-      shared: workspace:*
     dependencies:
       '@qiuyl/state': link:../state
       react: 18.2.0
-      shared: link:../shared
     devDependencies:
       '@types/react': 18.0.25
 
   packages/state-vue:
     specifiers:
       '@qiuyl/state': workspace:*
-      shared: workspace:*
       vue: ^3.2.40
     dependencies:
       '@qiuyl/state': link:../state
-      shared: link:../shared
       vue: 3.2.45
 
 packages:
