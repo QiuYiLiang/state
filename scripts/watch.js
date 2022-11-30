@@ -16,6 +16,9 @@ const args = require("minimist")(process.argv.slice(2));
 
 const target = args._[0] || config.defaultWatch;
 const formats = (args.f || "es").split(",");
+const pkg = require(resolve(packageDir, "./package.json"));
+
+const buildOptions = pkg.buildOptions
 
 const packageDir = resolve(__dirname, `../packages/${target}`);
 
@@ -44,7 +47,6 @@ const inputOptions = {
   ),
 };
 
-const pkg = require(resolve(packageDir, "./package.json"));
 
 const packageName = pkg.name;
 
