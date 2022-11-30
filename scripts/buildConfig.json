@@ -1,0 +1,7 @@
+{
+  "defaultWatch": "state",
+  "targets": ["state", "state-react", "state-vue"],
+  "external": ["@qiuyl/state"],
+  "globals": [],
+  "sourcemap": true
+}

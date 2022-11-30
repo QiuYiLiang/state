@@ -1,0 +1,35 @@
+{
+  "name": "@qiuyl/state-vue",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "buildOptions": {
+    "formats": [
+      "es",
+      "cjs"
+    ],
+    "external": [
+      "vue",
+      "@qiuyl/state"
+    ]
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/state-vue.cjs.js",
+  "module": "./dist/state-vue.es.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/state-vue.es.js",
+      "require": "./dist/state-vue.cjs.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "dependencies": {
+    "@qiuyl/state": "workspace:*",
+    "vue": "^3.2.40",
+    "shared": "workspace:*"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "@qiuyl/state-react",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "buildOptions": {
+    "formats": [
+      "es",
+      "cjs"
+    ],
+    "external": [
+      "react",
+      "@qiuyl/state"
+    ]
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/state-react.cjs.js",
+  "module": "./dist/state-react.es.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/state-react.es.js",
+      "require": "./dist/state-react.cjs.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "dependencies": {
+    "@qiuyl/state": "workspace:*",
+    "@types/react": "^18.0.14",
+    "react": "^18.2.0",
+    "shared": "workspace:*"
+  }
+}

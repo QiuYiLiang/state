@@ -1,0 +1,29 @@
+{
+  "name": "@qiuyl/state",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "buildOptions": {
+    "formats": [
+      "es",
+      "cjs"
+    ]
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/state.cjs.js",
+  "module": "./dist/state.es.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/state.es.js",
+      "require": "./dist/state.cjs.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "dependencies": {
+    "shared": "workspace:*"
+  }
+}
